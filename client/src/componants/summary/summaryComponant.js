@@ -3,18 +3,29 @@ import "./summary.css";
 class Summary extends Component {
   render() {
     return (
-      <div className="container mt-4">
-        <div className="row">
-          <div className="col">
-            <h3>Who am I?</h3>
+      <div className="summary">
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <h1 className="whoAmI">Who am I?</h1>
+            </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-7">
-            <span />
-          </div>
-          <div className="col">
-            <p>Placeholder Text</p>
+          <div className="row">
+            <div className="col-7">
+              <span />
+            </div>
+            <div className="col">
+              <p className="text">
+                A Web Developer learning through passion and hard work. In under
+                one year, while working full time, I enrolled in a coding
+                bootcamp. Ever sinse graduating, I have used all my free time
+                enhancing and expanding my knowledge even further. I find coding
+                to be increadibly similar to my hobby of writing novels. Both
+                require a strict syntax aswell as an orderly form of
+                composition, but the limitless creativity of the details within
+                these rules is what creates art.
+              </p>
+            </div>
           </div>
         </div>
       </div>

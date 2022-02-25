@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
 import Header from "./componants/header/headerComponant";
 import Footer from "./componants/footer/footerComponant";
 import Summary from "./componants/summary/summaryComponant";

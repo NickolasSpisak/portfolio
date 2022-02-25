@@ -1,5 +1,9 @@
 .header {
-  background-color: silver;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-image: url("http:/images/header.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .picture {
@@ -7,4 +11,7 @@
   -moz-box-shadow: 10px 10px 5px rgb(0, 0, 0);
   -webkit-box-shadow: 10px 10px 5px rgb(0, 0, 0);
   -khtml-box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+.name {
+  font-size: 100px;
 }
