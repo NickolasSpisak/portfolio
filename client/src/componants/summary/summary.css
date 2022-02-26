@@ -8,15 +8,19 @@
 .whoAmI {
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 75px;
-  color: black;
+  font-size: 100px;
+  color: rgb(219, 147, 13);
+  text-shadow: black 5px 5px;
   animation: fadeIn linear 7s;
   -webkit-animation: fadeIn linear 7s;
   -moz-animation: fadeIn linear 7s;
   -o-animation: fadeIn linear 7s;
   -ms-animation: fadeIn linear 7s;
 }
-
+.text {
+  color: black;
+  text-shadow: black 1px 1px;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;

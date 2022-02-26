@@ -6,7 +6,7 @@ class Summary extends Component {
       <div className="summary">
         <div className="container">
           <div className="row">
-            <div className="col">
+            <div className="col mt-5">
               <h1 className="whoAmI">Who am I?</h1>
             </div>
           </div>
@@ -14,7 +14,7 @@ class Summary extends Component {
             <div className="col-7">
               <span />
             </div>
-            <div className="col">
+            <div className="col mb-5">
               <p className="text">
                 A Web Developer learning through passion and hard work. In under
                 one year, while working full time, I enrolled in a coding

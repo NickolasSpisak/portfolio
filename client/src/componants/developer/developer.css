@@ -1,7 +1,14 @@
 .developer {
-  margin-bottom: 0;
-  padding-bottom: 0;
   background-image: url("http:/images/developerbackground.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+.devText {
+  font-size: 100px;
+  color: rgb(219, 147, 13);
+  text-shadow: black 5px 5px;
+}
+.website {
+  color: black;
+  text-shadow: black 1px 1px;
 }

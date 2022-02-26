@@ -8,15 +8,14 @@ class Footer extends Component {
     return (
       <div className="footer">
         <div className="container">
-          <hr />
           <div className="row">
-            <div className="col">
+            <div className="col mt-5">
               <FontAwesomeIcon icon={faGithub} />
               <a href="https://github.com/NickolasSpisak">My Github</a>
             </div>
           </div>
           <div className="row">
-            <div className="col">
+            <div className="col mb-5">
               <FontAwesomeIcon icon={faAmazon} />
               <a href="https://www.amazon.com/Darkest-Side-Moon-Nick-Spisak/dp/1984543598">
                 Darkest Side of the Moon
