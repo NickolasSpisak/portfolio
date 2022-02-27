@@ -12,6 +12,7 @@ class Header extends Component {
               <img
                 className="picture"
                 src="/images/nick.jpeg"
+                alt="picture of myself"
                 height={200}
                 width={200}
               />

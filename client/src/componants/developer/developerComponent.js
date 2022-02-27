@@ -18,6 +18,7 @@ class Developer extends Component {
                 <img
                   className="spishstories"
                   src="/images/spishstories.png"
+                  alt="spishstories"
                   height={400}
                   width={500}
                 />
@@ -29,6 +30,7 @@ class Developer extends Component {
                 <img
                   className="spishstories"
                   src="/images/scrollablesolarsystem.png"
+                  alt="scrollable solar system"
                   height={400}
                   width={500}
                 />
