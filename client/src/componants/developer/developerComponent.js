@@ -14,7 +14,7 @@ class Developer extends Component {
           <div className="row">
             <div className="col mb-5">
               <h1 className="website">SpishStories.com</h1>
-              <a href="https://spishstories.com/#/">
+              <a href="http://spishstories.com">
                 <img
                   className="spishstories"
                   src="/images/spishstories.png"
