@@ -26,6 +26,7 @@ class Developer extends Component {
             </div>
             <div className="col">
               <h1 className="website">Scrollable Solar System</h1>
+
               <a href="https://scrollablesolarsystem.netlify.app/">
                 <img
                   className="spishstories"

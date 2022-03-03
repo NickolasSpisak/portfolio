@@ -9,6 +9,7 @@ class Summary extends Component {
             <div className="col mt-5">
               <h1 className="whoAmI">Who am I?</h1>
             </div>
+            
           </div>
           <div className="row">
             <div className="col-7">
