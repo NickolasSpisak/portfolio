@@ -1,0 +1,20 @@
+.summary {
+  margin-top: 0;
+  padding-top: 0;
+  background-image: url("../../images/summarybackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity 0.1s;
+}
+.whoAmI {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  color: rgb(219, 147, 13);
+  text-shadow: black 5px 5px;
+}
+.text {
+  color: black;
+  text-shadow: black 1px 1px;
+  font-size: 20px;
+}

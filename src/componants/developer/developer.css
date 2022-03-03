@@ -1,0 +1,28 @@
+.developer {
+  background-image: url("../../images/developerbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.devText {
+  font-size: 100px;
+  color: rgb(219, 147, 13);
+  text-shadow: black 5px 5px;
+}
+.website {
+  color: black;
+  text-shadow: black 1px 1px;
+}
+.spishstories {
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  -moz-box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  -webkit-box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  -khtml-box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  opacity: 1;
+}
+.scrollablesolarsystem {
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  -moz-box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  -webkit-box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  -khtml-box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  opacity: 1;
+}
