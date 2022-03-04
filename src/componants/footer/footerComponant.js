@@ -1,7 +1,8 @@
 import { Component } from "react";
-// import { faGithub, faAmazon } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faAmazon } from "@fortawesome/free-brands-svg-icons";
 
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Button } from "reactstrap";
 import "./footer.css";
 class Footer extends Component {
   render() {
@@ -10,15 +11,16 @@ class Footer extends Component {
         <div className="container">
           <div className="row">
             <div className="col mt-5">
-              {/* <FontAwesomeIcon icon={faGithub} /> */}
-              <a href="https://github.com/NickolasSpisak">My Github</a>
+              <FontAwesomeIcon icon={faGithub} />
+              <a href="https://github.com/NickolasSpisak">
+                <Button>My Github</Button>
+              </a>
             </div>
-          </div>
-          <div className="row">
-            <div className="col mb-5">
-              {/* <FontAwesomeIcon icon={faAmazon} /> */}
+
+            <div className="col mt-5">
+              <FontAwesomeIcon icon={faAmazon} />
               <a href="https://www.amazon.com/Darkest-Side-Moon-Nick-Spisak/dp/1984543598">
-                Darkest Side of the Moon
+                <Button>Darkest Side of the Moon</Button>
               </a>
             </div>
           </div>
