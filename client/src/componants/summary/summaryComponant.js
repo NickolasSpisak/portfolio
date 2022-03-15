@@ -9,11 +9,18 @@ class Summary extends Component {
             <div className="col mt-5">
               <h1 className="whoAmI">Who am I?</h1>
             </div>
-            
           </div>
           <div className="row">
             <div className="col-7">
-              <span />
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React</li>
+                <li>React Native</li>
+                <li>Express API</li>
+                <li>Mongoose</li>
+                <li>Node.js</li>
+              </ul>
             </div>
             <div className="col mb-5">
               <p className="text">
