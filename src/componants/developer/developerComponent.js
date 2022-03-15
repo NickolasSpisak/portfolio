@@ -38,6 +38,20 @@ class Developer extends Component {
               </a>
             </div>
           </div>
+          <div className="row">
+            <div className="col">
+              <h1 className="website">Posts App</h1>
+              <a href="https://nickspisakposts.netlify.app">
+                <img
+                  className="spishstories"
+                  src="/images/posts.png"
+                  alt="posts"
+                  height={400}
+                  width={500}
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     );
