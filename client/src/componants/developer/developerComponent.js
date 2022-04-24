@@ -31,6 +31,33 @@ class Developer extends Component {
           </div>
           <div className="row">
             <div className="col mb-5">
+              <h1 className="website">Eccomerce App</h1>
+
+              <img
+                className="spishstories"
+                src="/images/eccomerce.png"
+                alt="posts"
+                height={400}
+                width={500}
+                onClick={this.handleOpenCard}
+              />
+            </div>
+            <div className="col mt-5">
+              <Card className="card">
+                <a href="https://nickspisak-eccomerce.netlify.app/">
+                  <CardBody>
+                    <p className="cardText">
+                      Eccomerce MERN application, with the features of account
+                      creation, add and delete from cart, admin authorization to
+                      create and delete items, and much more to come!
+                    </p>
+
+                    <p className="cardText">Click to visit!</p>
+                  </CardBody>
+                </a>
+              </Card>
+            </div>
+            <div className="col mb-5">
               <h1 className="website">Posts App</h1>
 
               <img
