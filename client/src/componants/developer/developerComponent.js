@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Card, CardBody, CardHeader, Collapse, Button } from "reactstrap";
+import { Card, CardBody } from "reactstrap";
 
 import "./developer.css";
 class Developer extends Component {
