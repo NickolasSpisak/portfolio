@@ -30,6 +30,33 @@ class Developer extends Component {
             </div>
           </div>
           <div className="row">
+            <div className="col mb-5 mt-3">
+              <Card className="card">
+                <a href="https://debbiefureysbooks.com/">
+                  <CardBody>
+                    <p className="cardText">
+                      Wordpress application with several plugins created for a
+                      client of mine.
+                    </p>
+
+                    <p className="cardText">Click to visit!</p>
+                  </CardBody>
+                </a>
+              </Card>
+            </div>
+            <div className="col mb-5">
+              <h1 className="website">Client application</h1>
+              <img
+                className="spishstories"
+                src="/images/debbies.png"
+                alt="posts"
+                height={400}
+                width={500}
+                onClick={this.handleOpenCard}
+              />
+            </div>
+          </div>
+          <div className="row">
             <div className="col mb-5">
               <h1 className="website">Eccomerce App</h1>
 
@@ -119,7 +146,7 @@ class Developer extends Component {
 
               <img
                 className="spishstories"
-                src="/images/spishstories.png"
+                src="/images/nextjs.png"
                 alt="spishstories"
                 height={400}
                 width={500}
@@ -127,12 +154,12 @@ class Developer extends Component {
             </div>
             <div className="col mt-5">
               <Card className="card">
-                <a href="https://spishstories.com">
+                <a href="https://spishstories.netlify.app/">
                   <CardBody>
                     <p className="cardText">
-                      React application which hosts stories I have written.
-                      Currently using React, CSS, and HTML. A responsive server
-                      is in development for a responsive webcomic reader!
+                      Next JS application with dynamic routing hosting the first
+                      chapter of several stories I have written! New stories are
+                      updated regularly!
                     </p>
 
                     <p className="cardText">Click to visit!</p>

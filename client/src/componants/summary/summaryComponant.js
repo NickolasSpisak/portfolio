@@ -16,9 +16,11 @@ class Summary extends Component {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>React</li>
+                <li>Next JS</li>
                 <li>React Native</li>
                 <li>Express API</li>
                 <li>Mongoose</li>
+                <li>Wordpress</li>
                 <li>Node.js</li>
               </ul>
             </div>
