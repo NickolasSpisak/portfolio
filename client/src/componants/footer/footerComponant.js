@@ -7,21 +7,21 @@ import "./footer.css";
 class Footer extends Component {
   render() {
     return (
-      <div className="footer">
+      <div className="footer mt-4 mb-4">
         <div className="container">
           <div className="row">
-            <div className="col mt-5">
-              {/* <FontAwesomeIcon icon={faGithub} /> */}
-              <a href="https://github.com/NickolasSpisak">
-                <Button>My Github</Button>
-              </a>
+            <div className="col">
+              <img src="/images/book.png" height={100} />
+              <h5>Link to my hit fiction novel "Darkest Side of the Moon"</h5>
+              <img src="/images/github.png" height={100} />
+              <h5>
+                Link to my Github where all these projects and many more are
+                hosted
+              </h5>
             </div>
-
-            <div className="col mt-5">
-              {/* <FontAwesomeIcon icon={faAmazon} /> */}
-              <a href="https://www.amazon.com/Darkest-Side-Moon-Nick-Spisak/dp/1984543598">
-                <Button>Darkest Side of the Moon</Button>
-              </a>
+            <div className="col">
+              <h2>QR Codes to my works created simply in Python</h2>
+              <img src="/images/qr-code.png" />
             </div>
           </div>
         </div>

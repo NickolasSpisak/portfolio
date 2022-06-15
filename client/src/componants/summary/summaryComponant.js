@@ -17,11 +17,14 @@ class Summary extends Component {
                 <li>CSS</li>
                 <li>React</li>
                 <li>Next JS</li>
+                <li>C++</li>
                 <li>React Native</li>
                 <li>Express API</li>
                 <li>Mongoose</li>
+                <li>Godot</li>
                 <li>Wordpress</li>
                 <li>Node.js</li>
+                <li>Python</li>
               </ul>
             </div>
             <div className="col mb-5">
